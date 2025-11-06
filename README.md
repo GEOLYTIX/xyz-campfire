@@ -59,3 +59,5 @@ so that people who forget their password know who to contact for help.
 Campfire is single-tenant: any rooms designated "public" will be accessible by
 all users in the system. To support entirely distinct groups of customers, you
 would deploy multiple instances of the application.
+
+# Testing a change
