@@ -19,7 +19,7 @@ ENV RAILS_ENV="production" \
     BUNDLE_PATH="/usr/local/bundle" \
     BUNDLE_WITHOUT="development" \
     SECRET_KEY_BASE="i-am-a-very-long-string" \
-    DISABLE_SSL="true" \
+    TLS_DOMAIN="chat.geolytix.com" \
     LD_PRELOAD="/usr/local/lib/libjemalloc.so"
 
 
