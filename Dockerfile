@@ -19,6 +19,8 @@ ENV RAILS_ENV="production" \
     BUNDLE_PATH="/usr/local/bundle" \
     BUNDLE_WITHOUT="development" \
     SECRET_KEY_BASE="i-am-a-very-long-string" \
+    VAPID_PRIVATE_KEY="QeHLmDPuyCSL1p1w__VVmcHVEwXxVdIf3agz-7fGVfE=" \
+    VAPID_PUBLIC_KEY="BOc130S4y66KIB_yuuVSo5xcSEsnrrC6c_7Zyq-m-N6SLsPsYae9N0Lmw9faciexX5VRM8dc9IFrCGTEGOhTnaU=" \
     TLS_DOMAIN="chat.geolytix.com" \
     LD_PRELOAD="/usr/local/lib/libjemalloc.so"
 
